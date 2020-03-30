@@ -11,9 +11,34 @@ pela aplicação Web, capaz de capturar as coordenadas do usuário através da g
 mobile fica responsável por realizar a busca dos membros cadastrados dentro de um raio de 10km, que trabalhem com a 
 tecnologia dada como input.
 
-## Tecnologias utilizadas
+## Principais tecnologias utilizadas
 
 * Node.js
 * React
 * React Native
+* Socket.io
 * MongoDB
+
+## Características
+
+Algumas das características implementadas nesse projeto.
+
+### Cadastro
+
+![new_cadastro](doc/gifs_demo/cadastro.gif)
+
+### Layout responsivo da aplicação web
+
+![responsiveness](doc/gifs_demo/responsiveness.gif)
+
+### Aplicação mobile
+
+Pesquisar devs que estejam em um raio de 10km de sua localização, pela tecnologia.
+
+![mobile_demo](doc/gifs_demo/mobile.gif)
+
+### Atualiação em tempo real através de WebSockets
+
+Novos devs cadastrados são prontamente exibidos.
+
+![real_time](doc/gifs_demo/real-time.gif)
